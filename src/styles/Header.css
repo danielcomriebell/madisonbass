@@ -1,0 +1,124 @@
+.header{
+    position:fixed;
+    z-index:1;
+    width: 100vw;
+    height: 34px;
+    background-color: white;
+    padding-bottom: 15px;
+    /* -webkit-box-shadow: 0 8px 6px -9px black;
+    -moz-box-shadow: 0 8px 6px -9px black;
+    box-shadow: 0 8px 6px -9px black; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    /* opacity: .9; */
+    transition: all .4s ease-in-out;
+    /* display: block!; */
+    z-index: 2;
+}
+
+.header:hover{
+    background-color: yellow;
+}
+
+
+.header-container-m{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    /* display: none; */
+    /* opacity: 0; */
+    position: fixed;
+    z-index: 1;
+    /* animation: fade-out 1s linear; */
+    /* animation: fade-in 7s linear; */
+    /* pointer-events: none; */
+}
+
+.inactive{
+    opacity: 0;
+    transform: scale3d(1.2,1.2,1.2);
+    -webkit-transform:scale3d(1.2,1.2,1.2);
+    transition: all 250ms ease-in-out;
+    pointer-events: none;
+}
+
+
+.show{
+    /* display: block; */
+    /* animation: fade-in 1s linear; */
+    transform: scale3d(1,1,1);
+    -webkit-transform:scale3d(1,1,1);
+    opacity: 1;
+    transition: all 250ms ease-in-out;
+}
+
+#menu-icon{
+    width: 30px;
+    position: absolute;
+    top:18px;
+    left:15px;
+}
+
+.active{
+    background-color: yellow;
+}
+
+.menu-content{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.menu-content li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Custom";
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    transition: all .4s ease-in;
+    cursor: pointer;
+}
+
+.menu-content li:hover{
+    color:yellow;
+}
+
+
+.header h1{
+    /* width: 50%; */
+    font-family: "Custom";
+    letter-spacing: 1px;
+    text-align: center;
+    left: 50%;
+    transform:translateX(-50%);
+    position: relative;
+    /* top: 20px; */
+    top: 10px;
+    font-size: 20px;
+}
+
+.header p{
+    font-family:"Custom";
+    font-size: 13px;
+    line-height: 15px;
+    left:10px; 
+    text-decoration: uppercase;
+    position: relative;
+    /* border-right: 1px solid black; */
+    /* letter-spacing: 2px; */
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+

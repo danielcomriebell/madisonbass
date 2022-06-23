@@ -1,0 +1,104 @@
+.hero-main-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* background-image: url("../assets/madison-trim.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: black; */
+    /* display: block; */
+    /* background-color: black; */
+    /* z-index: 4; */
+    background-color:rgba(245,245,220,0.4);
+
+
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); */
+}
+
+/* .background-img{
+    background-image: url("../assets/mad.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.hero-main-content{
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 50%;
+    height: 75%;
+    max-width: 350px;
+    background-image: url("https://images.ctfassets.net/3s4313xo0u0s/7C63N9DLQBGSGxb7neTLQ9/9576e83ebb5ab237086616b7d9c615bb/madison-compressed.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("../assets/madison-trim.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black; */
+    /* display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 90%;
+    left: 50%;
+    padding-top: 50px;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 50%;
+    transform: translateX(-50%); */
+}
+
+.hero-main-img img{
+    width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .4s ease-in-out;
+    animation: blur-out 3s linear;
+}
+
+.main-img img:hover{
+    opacity: .25;
+    /* filter: blur(4px); */
+}
+
+.main-title h1{
+    font-family:"Custom";
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.main-title-one h1{
+    font-family:"Custom";
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.main-title h1:hover{
+    /* transition: all .4s ease-in;c */
+    color: yellow;
+}
+
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes blur-out {
+    from { filter: blur(5px); }
+    to   { filter: blur(0px); }
+}
+
+

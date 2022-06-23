@@ -1,0 +1,106 @@
+.contact-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(248, 240, 198, .4);
+}
+
+#root > div > div > div.contact-container > div > div{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.contact-content{
+    width: 85%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    position: relative;
+    grid-column-gap: 10px;
+}
+
+.grid-item img{
+    width: 100%;
+    left:50%;
+    position: relative;
+    transform:translateX(-50%);
+}
+
+.contact-grid-item img{
+    width: 300px;
+    left:50%;
+    position: relative;
+    transform:translateX(-50%);
+}
+
+.contact-grid-item{
+    margin-bottom:25px;
+}
+
+.contact-content li a{
+    font-family: "helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+    transition: all .4s ease-in-out;
+}
+
+.contact-content li a:hover{
+    background-color: yellow;
+}
+
+.contact-content li{
+    width: 250px;
+    height: 34px;
+    line-height: 34px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-family: "helvetica";
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom:10px;
+    transition: all .4s ease-in;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.contact-content li:hover{
+    color: yellow;
+}
+
+.contact-grid-item p{
+    width: 300px;
+    text-align: center;
+    left:50%;
+    position: relative;
+    transform:translateX(-50%);
+}
+
+.float{
+    float:right;
+    width: 50%;
+}
+
+.contact-title{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-title h1{
+    font-family:"Custom";
+    letter-spacing: 2px;
+    font-size: 10px;
+}

@@ -1,0 +1,22 @@
+.home-container{
+    /* background-image: url("../assets/Screen\ Shot\ 2022-02-09\ at\ 2.21.44\ PM.png"); */
+    /* background-image: url("../assets/mad.png"); */
+
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.fixed{
+    position: fixed;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size: 60px;
+    font-family: "Custom";
+    opacity: .1;
+}
