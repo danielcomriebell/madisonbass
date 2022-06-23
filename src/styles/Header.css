@@ -16,7 +16,7 @@
 }
 
 .header:hover{
-    background-color: yellow;
+    background-color: #FDFD96;
 }
 
 
@@ -59,7 +59,7 @@
 }
 
 .active{
-    background-color: yellow;
+    background-color: #FDFD96;
 }
 
 .menu-content{
@@ -83,7 +83,7 @@
 }
 
 .menu-content li:hover{
-    color:yellow;
+    color:#FDFD96;
 }
 
 

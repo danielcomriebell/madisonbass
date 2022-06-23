@@ -17,7 +17,7 @@ export default function Main(){
           <h1>Recent Feature</h1>  
         </div>
         <div className="main-img">
-          <img src="https://shagmag-cms-dev.s3.us-east-2.amazonaws.com/media/images/large/fb13f83d-d86b-4cff-b56f-60c07b12c141"></img>
+          <img src="https://images.ctfassets.net/3s4313xo0u0s/4oP1ey8AZsydM7GMCQYJ7j/19808abf8db652685fd691a9fb0de8d5/IMG_9960_3.jpg"></img>
         </div>
         <div className="main-title">
           <h1 onClick={routeToShagMag}>Shagmag Article #274</h1>  

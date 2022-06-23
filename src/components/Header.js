@@ -34,10 +34,6 @@ export default function Header(){
     window.location="https://www.pinterest.com/madisonbass_/_created/";
   }
 
-  const routeToWideApp = () =>{
-    window.location="https://www.wideapp.co/madisonbass";
-  }
-
 
   return(
 
@@ -59,7 +55,6 @@ export default function Header(){
           <li onClick={routeToTwitter}>Twitter</li>
           <li onClick={routeToTikTok}>TikTok</li>
           <li onClick={routeToPinterest}>Pinterest</li>
-          <li onClick={routeToWideApp}>WideApp</li>
         </div>
       </div>
     </div>

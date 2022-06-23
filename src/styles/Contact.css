@@ -55,7 +55,7 @@
 }
 
 .contact-content li a:hover{
-    background-color: yellow;
+    background-color: #FDFD96;
 }
 
 .contact-content li{
@@ -77,7 +77,7 @@
 }
 
 .contact-content li:hover{
-    color: yellow;
+    color: #FDFD96;
 }
 
 .contact-grid-item p{

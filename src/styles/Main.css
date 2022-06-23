@@ -100,7 +100,7 @@
 
 .main-title h1:hover{
     /* transition: all .4s ease-in;c */
-    color: yellow;
+    color: #FDFD96;
     cursor: pointer;
 }
 
